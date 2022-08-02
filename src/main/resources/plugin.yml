@@ -1,0 +1,12 @@
+name: tacticalcards
+version: '${project.version}'
+main: me.heartalborada.tacticalcards.tacticalcards
+api-version: 1.19
+prefix: Tactical-Graphic-cards
+authors: [ heartalborada ]
+commands:
+  getcard:
+    description: Get card
+    usage: /getcard
+    permission: tacticalcards.getcard
+    permission-message: You don't have permission to do that!
